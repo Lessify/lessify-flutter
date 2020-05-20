@@ -1,8 +1,8 @@
 name: lessify_flutter
 description: Integration with Lessify API
 version: 0.0.1
-author:
-homepage:
+homepage: https://lessify.io
+repository: https://github.com/Lessify/lessify-flutter
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
