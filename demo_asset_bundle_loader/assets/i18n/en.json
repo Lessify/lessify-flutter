@@ -1,0 +1,12 @@
+{
+  "login.reset": "Reset",
+  "login.email": "Email address",
+  "login.auth.wrong": "The username and password are wrong",
+  "login.password.error": "Please provide a valid password",
+  "login.submit": "Login",
+  "login.title": "Login Form",
+  "login.password": "Password",
+  "title": "Title Default",
+  "login.maintenance.message": "We are under maintenance now !! The message appears only when variable maintenance is equal with true, and you can change it from Configuration panel.",
+  "login.email.error": "Please provide a valid email"
+}
