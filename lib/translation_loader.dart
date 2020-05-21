@@ -25,14 +25,13 @@ class LessifyTranslationLoader implements TranslationLoader {
     assert(spaceId != null, 'SpaceId is required');
     assert(environment != null, 'SpaceId is required');
     assert(apiKey != null, 'SpaceId is required');
-    final String url = (this.beta == null || this.beta == false) ? 'https://api.lessify.io' : 'https://dev-api.lessify.io';
+    final String url = (this.beta == null || this.beta == false)
+        ? 'https://api.lessify.io'
+        : 'https://dev-api.lessify.io';
 
     final response = await http.get(
         '$url/v1/spaces/$spaceId/environments/$environment/translations.${locale.languageCode}.json',
-        headers: {
-          'Authorization':
-          'Bearer $apiKey'
-        });
+        headers: {'Authorization': 'Bearer $apiKey'});
     if (response.statusCode == 200) {
       return json.decode(response.body);
     } else {
@@ -45,11 +44,11 @@ class BundleAssetTranslationLoader implements TranslationLoader {
   final String basePath;
   BundleAssetTranslationLoader({
     this.basePath = "assets/i18n",
-});
+  });
 
   @override
   Future<Map<String, dynamic>> load(Locale locale) async {
-    return json.decode(await rootBundle.loadString('$basePath/${locale.languageCode}.json'));
+    return json.decode(
+        await rootBundle.loadString('$basePath/${locale.languageCode}.json'));
   }
-
 }

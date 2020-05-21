@@ -11,6 +11,7 @@ void main() {
         spaceId: '9325a510-8de0-11ea-8d6d-493c632c6526',
         environment: 'master',
         apiKey: 'api-key-UhakG-fdb8a170-9286-11ea-8d6d-493c632c6526-IbKCV'),
+    //loader: BundleAssetTranslationLoader(),
     child: MyApp(),
   ));
 }

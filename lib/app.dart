@@ -10,6 +10,7 @@ class LessifyApp extends InheritedWidget {
   final List<Locale> supportedLocales;
   final Locale fallbackLocale;
   final TranslationLoader loader;
+  //ignore: close_sinks
   final BehaviorSubject<Locale> _currentLocale = BehaviorSubject.seeded(null);
 
   ValueStream<Locale> get currentLocaleStream$ => _currentLocale.stream;
