@@ -39,5 +39,4 @@ class LessifyApp extends InheritedWidget {
   bool updateShouldNotify(InheritedWidget oldWidget) {
     return true;
   }
-
 }
