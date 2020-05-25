@@ -28,7 +28,7 @@ class LessifyLocalizationDelegate
       }
     }
     final translations = await loader.load(acceptableLocale);
-    return LessifyLocalization(translations);
+    return LessifyLocalization.init(translations);
   }
 
   @override
