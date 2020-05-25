@@ -1,6 +1,6 @@
 name: lessify_flutter
 description: Lessify API integration library. Help with Translation and Internationalization (i18n). Also with HTTP calls to API.
-version: 0.1.1
+version: 0.2.0
 homepage: https://lessify.io
 repository: https://github.com/Lessify/lessify-flutter
 

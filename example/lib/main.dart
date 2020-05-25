@@ -97,7 +97,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ],
             ),
-            Text(translate('login.email')),
+            Text(translate('login.email')), // Translate key
+            Text(translate('welcome', namedArgs: {'user': 'Alex'})), // Translate key with named args
             Text('Current Locale : ' + _getLanguageCode(context)),
             Text(
               'You have pushed the button this many times:',

@@ -1,3 +1,7 @@
+## [0.2.0] - 25/05/2020
+
+* Add translation with named arguments and arguments
+
 ## [0.1.1] - 21/05/2020
 
 * Update example

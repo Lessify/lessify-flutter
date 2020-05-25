@@ -1,4 +1,5 @@
 {
+  "welcome": "Willkommen {user}.",
   "login.reset": "Zurücksetzen",
   "login.email": "E-Mail-Addresse",
   "login.auth.wrong": "Der Benutzername und das Passwort sind falsch",
