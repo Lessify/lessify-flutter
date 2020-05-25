@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
                 RaisedButton(
                   onPressed: () =>
-                  {LessifyApp.of(context).changeLocale(Locale('en'))},
+                      LessifyApp.of(context).changeLocale(Locale('en')),
                   color: currentLanguageCode == 'en'
                       ? Theme.of(context).accentColor
                       : null,
@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 const SizedBox(width: 30),
                 RaisedButton(
                   onPressed: () =>
-                  {LessifyApp.of(context).changeLocale(Locale('de'))},
+                      LessifyApp.of(context).changeLocale(Locale('de')),
                   color: currentLanguageCode == 'de'
                       ? Theme.of(context).accentColor
                       : null,
@@ -97,8 +97,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ],
             ),
-            Text(translate('login.email')), // Translate key
-            Text(translate('welcome', namedArgs: {'user': 'Alex'})), // Translate key with named args
+            Text(translate('login.email')),
+            // Translate key
+            Text(translate('welcome', namedArgs: {'user': 'Alex'})),
+            // Translate key with named args
             Text('Current Locale : ' + _getLanguageCode(context)),
             Text(
               'You have pushed the button this many times:',
