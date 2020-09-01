@@ -8,9 +8,9 @@ void main() {
     fallbackLocale: const Locale('en'),
     supportedLocales: [const Locale('en'), const Locale('de')],
     loader: LessifyTranslationLoader(
-        spaceId: '9325a510-8de0-11ea-8d6d-493c632c6526',
+        spaceId: '1647c6a0-ec21-11ea-a414-9ff19f1910a1',
         environment: 'master',
-        apiKey: 'api-key-UhakG-fdb8a170-9286-11ea-8d6d-493c632c6526-IbKCV'),
+        apiKey: 'api-key-fhMwD-b4915cd0-ec22-11ea-a414-9ff19f1910a1-wzd4E'),
     //loader: BundleAssetTranslationLoader(),
     child: MyApp(),
   ));
