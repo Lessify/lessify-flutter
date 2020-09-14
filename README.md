@@ -1,6 +1,8 @@
 # lessifyflutter
 
-Integration with Lessify API
+Integration with [Lessify API](https://lessify.io)
+
+[lessify_flutter](https://pub.dev/packages/lessify_flutter)
 
 ## Getting Started
 
