@@ -1,3 +1,7 @@
+## [0.2.1] - 13/09/2020
+
+* Add translation plural with named arguments and arguments
+
 ## [0.2.0] - 25/05/2020
 
 * Add translation with named arguments and arguments

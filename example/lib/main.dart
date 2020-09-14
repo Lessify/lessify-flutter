@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:lessify_flutter/lessify_flutter.dart';
-import 'package:lessify_flutter/translation_loader.dart';
 
 void main() {
   runApp(LessifyApp(
@@ -98,6 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
             ),
             Text(translate('login.email')),
+            Text(translatePlural('login.emails', Plural.few)),
             // Translate key
             Text(translate('welcome', namedArgs: {'user': 'Alex'})),
             // Translate key with named args
